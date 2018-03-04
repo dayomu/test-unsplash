@@ -1,0 +1,275 @@
+@import '~antd/dist/antd.css';
+
+body {
+  background: #f0f2f5;
+}
+
+.ant-layout {
+  background: transparent !important;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 24px;
+  color: #fff;
+}
+
+.app-content {
+  padding: 0 50px;
+}
+
+h1 {
+  margin-top: 60px;
+}
+
+.loader {
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+}
+
+.photos-loader {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.back-button-container {
+  margin-bottom: 30px;
+}
+
+.back-button {
+  text-transform: uppercase;
+  color: #333;
+  padding: 6px 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  background: transparent;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  border-color: #40a9ff;
+  color: #40a9ff;
+}
+
+
+
+.collection-list-item {
+  margin: 0 15px 30px 15px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  background: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+}
+
+.collection-list-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+}
+
+.collection-list-item__image {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.collection-list-item__header {
+  padding: 30px;
+}
+
+.collection-list-item__title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  height: 44px;
+  color: #333;
+}
+
+.collection-list-item__total-photos {
+  color: #777;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.collection-list-item__tags {
+  margin-top: 10px;
+  height: 80px;
+}
+
+.collection-list-item__tag {
+  display: inline-block;
+  font-size: 11px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  background: #1BA39C;
+  color: #fff;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+.collection-list-item__button {
+  margin-top: 10px;
+}
+
+.collection-list-item__button button {
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+.collection-list-item__published {
+  color: #ccc;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+
+
+
+
+.collection {
+  margin-top: 50px;
+}
+
+.collection-photo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.collection-photo:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.collection-title {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.75);
+  color: #fff;
+  z-index: 2;
+}
+
+.collection-title span {
+  font-weight: 300;
+}
+
+.collection-photos-list-title {
+  font-weight: 300;
+  font-size: 42px;
+  padding: 45px 0 15px 0;
+}
+
+.collection-photos-list-item {
+  display: block;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  background: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  margin-bottom: 30px;
+}
+
+.collection-photos-list-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+}
+
+.collection-photos-list-item-photo {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+}
+
+
+
+.photo {
+  margin-top: 50px;
+}
+
+.photo-container {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.photo-container img {
+  display: inline-block;
+  max-height: 800px;
+}
+
+.photo-description {
+  margin-top: 15px;
+  color: #777777;
+  font-style: italic;
+  text-align: center;
+  font-size: 16px;
+}
+
+.photo-info__item {
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.65);
+}
+
+.photo-author {
+  text-align: right;
+}
+
+.photo-author__avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-author__name {
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.exif-info {
+  margin: 30px 0 50px;
+}
+
+.exif-info__title {
+  font-weight: 300;
+  font-size: 42px;
+  padding: 45px 0 15px 0;
+}
+
+.exif-info__item-title {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.exif-info__item-title {
+  margin-top: 15px;
+}
