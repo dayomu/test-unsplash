@@ -19,5 +19,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://dayoumu.github.com/test-unsplash/"
+  "homepage": "https://dayomu.github.io/test-unsplash/"
 }
